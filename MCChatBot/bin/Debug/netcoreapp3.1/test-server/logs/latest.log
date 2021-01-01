@@ -1,0 +1,46 @@
+[17:24:31] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[17:24:32] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[17:24:32] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[17:24:32] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[17:24:32] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[17:24:32] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[17:24:32] [main/INFO]: Reloading ResourceManager: Default
+[17:24:33] [Worker-Main-13/INFO]: Loaded 7 recipes
+[17:24:33] [Worker-Main-13/INFO]: Loaded 987 advancements
+[17:24:34] [Server thread/INFO]: Starting minecraft server version 20w51a
+[17:24:34] [Server thread/INFO]: Loading properties
+[17:24:34] [Server thread/INFO]: Default game type: SURVIVAL
+[17:24:34] [Server thread/INFO]: Generating keypair
+[17:24:34] [Server thread/INFO]: Starting Minecraft server on *:25565
+[17:24:34] [Server thread/INFO]: Using default channel type
+[17:24:36] [Server thread/INFO]: Preparing level "world"
+[17:24:36] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[17:24:38] [Server thread/INFO]: Preparing spawn area: 0%
+[17:24:38] [Server thread/INFO]: Preparing spawn area: 0%
+[17:24:38] [Server thread/INFO]: Preparing spawn area: 0%
+[17:24:38] [Server thread/INFO]: Preparing spawn area: 0%
+[17:24:38] [Server thread/INFO]: Preparing spawn area: 0%
+[17:24:38] [Server thread/INFO]: Preparing spawn area: 0%
+[17:24:39] [Server thread/INFO]: Preparing spawn area: 0%
+[17:24:39] [Server thread/INFO]: Preparing spawn area: 0%
+[17:24:40] [Server thread/INFO]: Preparing spawn area: 94%
+[17:24:40] [Server thread/INFO]: Time elapsed: 4773 ms
+[17:24:40] [Server thread/INFO]: Done (4.900s)! For help, type "help"
+[17:24:44] [Server thread/INFO]: No player was found
+[17:24:59] [User Authenticator #1/INFO]: UUID of player smilee13 is 2a3eca11-736a-48d8-8c05-edfafb8e07cb
+[17:24:59] [Server thread/INFO]: smilee13[/127.0.0.1:52195] logged in with entity id 321 at (-248.6619987484514, 72.0, -71.77008903011335)
+[17:24:59] [Server thread/INFO]: smilee13 joined the game
+[17:25:01] [Server thread/WARN]: smilee13 moved too quickly! 586.1404139516794,-1.5625,-649.5900011007759
+[17:25:07] [User Authenticator #2/INFO]: UUID of player smilee13 is 2a3eca11-736a-48d8-8c05-edfafb8e07cb
+[17:25:07] [Server thread/INFO]: smilee13 lost connection: You logged in from another location
+[17:25:07] [Server thread/INFO]: smilee13 left the game
+[17:25:07] [Server thread/INFO]: smilee13[/127.0.0.1:52203] logged in with entity id 333 at (-248.6619987484514, 72.55321338701523, -72.40478563048201)
+[17:25:07] [Server thread/INFO]: smilee13 joined the game
+[17:25:09] [Server thread/INFO]: <smilee13> kek
+[17:25:37] [Server thread/INFO]: smilee13 lost connection: Disconnected
+[17:25:37] [Server thread/INFO]: smilee13 left the game
+[17:25:40] [Server thread/INFO]: No player was found
+[17:25:48] [Server thread/INFO]: No player was found
+[17:25:53] [Server thread/INFO]: No player was found
+[17:25:54] [Server thread/INFO]: No player was found
+[17:26:04] [Server thread/INFO]: No player was found

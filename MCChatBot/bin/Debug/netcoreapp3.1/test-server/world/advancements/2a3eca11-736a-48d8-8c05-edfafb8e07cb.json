@@ -1,0 +1,15 @@
+{
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_by_something": "2021-01-01 16:40:05 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2021-01-01 16:08:56 -0500"
+    },
+    "done": false
+  },
+  "DataVersion": 2687
+}

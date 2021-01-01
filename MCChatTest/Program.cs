@@ -4,12 +4,15 @@ using System.IO;
 using System.Diagnostics;
 using System.Threading;
 using System.ComponentModel;
+using System.Text.RegularExpressions;
 
 namespace MCChatTest
 {
     class Program
     {
         static string serverFileName = "server.jar";
+        static string chatMessageRegex = @".*?(<(.*?)>)|(\[Server\]).*?";
+        static bool serverOpened = false;
         //RAM variables are in Gigabytes
         static int minRAM = 1;
         static int maxRAM = 4;
@@ -34,36 +37,57 @@ namespace MCChatTest
             while(!process.StandardOutput.EndOfStream)
             {
                 string output = process.StandardOutput.ReadLine();
+                if (output.Contains("Time elapsed:"))
+                {
+                    serverOpened = true;
+                }
+
+                if(Regex.Match(output,chatMessageRegex).Success)
+                {
+                    Console.ForegroundColor = ConsoleColor.Cyan;
+                    Console.WriteLine($"Chat message detected!: {output.Substring(33)}");
+                    Console.ResetColor();
+                }
+
                 Console.WriteLine(output);
             }
+
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine("Process has exited, exiting in 3 seconds...");
+            Thread.Sleep(3000);
+            Environment.Exit(0);
         }
 
         static void HandleInputs()
         {
             Console.ForegroundColor = ConsoleColor.Yellow;
-            Console.WriteLine("Waiting for 10 seconds before handling inputs");
-            Console.ForegroundColor = ConsoleColor.White;
-            
-            Thread.Sleep(10000);
+            Console.WriteLine("Waiting for the server to be started before handling inputs");
+            Console.ResetColor();
+
+            while (!serverOpened) ;
 
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("Now handling inputs!");
-            Console.ForegroundColor = ConsoleColor.White;
+            Console.ResetColor();
 
-            while(!process.HasExited)
+            while (!process.HasExited)
             {
                 string input = Console.ReadLine();
 
-                process.StandardInput.WriteLine(input);
+                SendMessage(input, "kekw");
+                //process.StandardInput.WriteLine(input);
                 Console.ForegroundColor = ConsoleColor.Cyan;
                 Console.WriteLine($"The following input was handled: {input}");
-                Console.ForegroundColor = ConsoleColor.White;
+                Console.ResetColor();
                 process.StandardInput.Flush();
             }
+        }
 
-            Console.WriteLine("Process has exited, exiting in 3 seconds...");
-            Thread.Sleep(3000);
-            Environment.Exit(0);
+        static void SendMessage(string message, string authorName)
+        {
+            string tellraw= "tellraw @a {\"text\":\"<"+authorName+"> "+message+ "\"}";
+            process.StandardInput.WriteLine(tellraw);
+            process.StandardInput.Flush();
         }
     }
 }

@@ -1,44 +1,32 @@
-[13:28:24] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[13:28:25] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[13:28:25] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[13:28:25] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[13:28:25] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[13:28:25] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[13:28:25] [main/INFO]: Reloading ResourceManager: Default
-[13:28:25] [Worker-Main-8/INFO]: Loaded 7 recipes
-[13:28:25] [Worker-Main-8/INFO]: Loaded 987 advancements
-[13:28:26] [Server thread/INFO]: Starting minecraft server version 20w51a
-[13:28:26] [Server thread/INFO]: Loading properties
-[13:28:26] [Server thread/INFO]: Default game type: SURVIVAL
-[13:28:26] [Server thread/INFO]: Generating keypair
-[13:28:27] [Server thread/INFO]: Starting Minecraft server on *:25565
-[13:28:27] [Server thread/INFO]: Using default channel type
-[13:28:27] [Server thread/INFO]: Preparing level "world"
-[13:28:27] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[13:28:29] [Server thread/INFO]: Preparing spawn area: 0%
-[13:28:29] [Server thread/INFO]: Preparing spawn area: 0%
-[13:28:29] [Server thread/INFO]: Preparing spawn area: 0%
-[13:28:29] [Server thread/INFO]: Preparing spawn area: 0%
-[13:28:30] [Server thread/INFO]: Preparing spawn area: 47%
-[13:28:31] [Server thread/INFO]: Time elapsed: 3708 ms
-[13:28:31] [Server thread/INFO]: Done (3.807s)! For help, type "help"
-[13:28:37] [Server thread/INFO]: Unknown or incomplete command, see below for error
-[13:28:37] [Server thread/INFO]: ok am the yes<--[HERE]
-[13:28:52] [Server thread/INFO]: Unknown or incomplete command, see below for error
-[13:28:52] [Server thread/INFO]: alright this whole thing actually isn't all that bad<--[HERE]
-[13:28:59] [Server thread/INFO]: Unknown or incomplete command, see below for error
-[13:28:59] [Server thread/INFO]: now I gotta detect chat messages<--[HERE]
-[13:29:06] [Server thread/INFO]: [Server] kekw
-[13:29:51] [Server thread/INFO]: Stopping the server
-[13:29:51] [Server thread/INFO]: Stopping server
-[13:29:51] [Server thread/INFO]: Saving players
-[13:29:51] [Server thread/INFO]: Saving worlds
-[13:29:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[13:29:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[13:29:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[13:29:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[13:29:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[13:29:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[13:29:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[13:29:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[13:29:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16:41:50] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[16:41:51] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[16:41:51] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16:41:51] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16:41:51] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[16:41:51] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16:41:51] [main/INFO]: Reloading ResourceManager: Default
+[16:41:51] [Worker-Main-14/INFO]: Loaded 7 recipes
+[16:41:52] [Worker-Main-14/INFO]: Loaded 987 advancements
+[16:41:52] [Server thread/INFO]: Starting minecraft server version 20w51a
+[16:41:52] [Server thread/INFO]: Loading properties
+[16:41:52] [Server thread/INFO]: Default game type: SURVIVAL
+[16:41:52] [Server thread/INFO]: Generating keypair
+[16:41:53] [Server thread/INFO]: Starting Minecraft server on *:25565
+[16:41:53] [Server thread/INFO]: Using default channel type
+[16:41:54] [Server thread/INFO]: Preparing level "world"
+[16:41:54] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[16:41:55] [Server thread/INFO]: Preparing spawn area: 0%
+[16:41:55] [Server thread/INFO]: Preparing spawn area: 0%
+[16:41:55] [Server thread/INFO]: Preparing spawn area: 0%
+[16:41:55] [Server thread/INFO]: Preparing spawn area: 24%
+[16:41:56] [Server thread/INFO]: Preparing spawn area: 72%
+[16:41:56] [Server thread/INFO]: Preparing spawn area: 72%
+[16:41:57] [Server thread/INFO]: Time elapsed: 2911 ms
+[16:41:57] [Server thread/INFO]: Done (3.032s)! For help, type "help"
+[16:42:01] [User Authenticator #1/INFO]: UUID of player smilee13 is 2a3eca11-736a-48d8-8c05-edfafb8e07cb
+[16:42:01] [Server thread/INFO]: smilee13[/127.0.0.1:51668] logged in with entity id 303 at (-211.52862453445985, 66.0, -80.77787894300562)
+[16:42:01] [Server thread/INFO]: smilee13 joined the game
+[16:42:06] [Server thread/INFO]: <smilee13> cockity
+[16:42:40] [Server thread/INFO]: smilee13 lost connection: Disconnected
+[16:42:40] [Server thread/INFO]: smilee13 left the game
+[16:42:46] [Server thread/INFO]: No player was found
