@@ -1,0 +1,12 @@
+C:\Users\home\source\repos\MCChatBot\MCChatTest\bin\Debug\netcoreapp3.1\MCChatTest.exe
+C:\Users\home\source\repos\MCChatBot\MCChatTest\bin\Debug\netcoreapp3.1\MCChatTest.deps.json
+C:\Users\home\source\repos\MCChatBot\MCChatTest\bin\Debug\netcoreapp3.1\MCChatTest.runtimeconfig.json
+C:\Users\home\source\repos\MCChatBot\MCChatTest\bin\Debug\netcoreapp3.1\MCChatTest.runtimeconfig.dev.json
+C:\Users\home\source\repos\MCChatBot\MCChatTest\bin\Debug\netcoreapp3.1\MCChatTest.dll
+C:\Users\home\source\repos\MCChatBot\MCChatTest\bin\Debug\netcoreapp3.1\MCChatTest.pdb
+C:\Users\home\source\repos\MCChatBot\MCChatTest\obj\Debug\netcoreapp3.1\MCChatTest.csproj.CoreCompileInputs.cache
+C:\Users\home\source\repos\MCChatBot\MCChatTest\obj\Debug\netcoreapp3.1\MCChatTest.AssemblyInfoInputs.cache
+C:\Users\home\source\repos\MCChatBot\MCChatTest\obj\Debug\netcoreapp3.1\MCChatTest.AssemblyInfo.cs
+C:\Users\home\source\repos\MCChatBot\MCChatTest\obj\Debug\netcoreapp3.1\MCChatTest.dll
+C:\Users\home\source\repos\MCChatBot\MCChatTest\obj\Debug\netcoreapp3.1\MCChatTest.pdb
+C:\Users\home\source\repos\MCChatBot\MCChatTest\obj\Debug\netcoreapp3.1\MCChatTest.genruntimeconfig.cache
