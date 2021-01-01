@@ -102,6 +102,7 @@ namespace MCChatTest
         {
             string tellraw = "tellraw @a {\"text\":\"<" + authorName + "> " + message + "\"}";
             process.StandardInput.WriteLine(tellraw);
+            Console.WriteLine($"[{DateTime.Now.ToString("HH:mm:ss")}] [Server thread/INFO]: <{authorName}> {message}");
             process.StandardInput.Flush();
         }
     }
