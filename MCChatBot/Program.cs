@@ -89,9 +89,9 @@ namespace MCChatTest
             {
                 string input = Console.ReadLine();
 
-                SendMessage(input, "kekw");
-                //process.StandardInput.WriteLine(input);
-                Console.ForegroundColor = ConsoleColor.Cyan;
+                //SendMessage(input, "kekw");
+                process.StandardInput.WriteLine(input);
+                //Console.ForegroundColor = ConsoleColor.Cyan;
                 Console.WriteLine($"The following input was handled: {input}");
                 Console.ResetColor();
                 process.StandardInput.Flush();

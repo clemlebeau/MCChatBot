@@ -88,6 +88,9 @@ namespace MCChatBot
                 {
                     string message = e.Message.Content.ToString();
                     string author = e.Author.Username.ToString();
+                    Console.ForegroundColor = ConsoleColor.DarkMagenta;
+                    Console.WriteLine($"Got message \"{message}\" on discord from {author}");
+                    Console.ResetColor();
                     Program.SendMessage(message, author);
                 }
             }
