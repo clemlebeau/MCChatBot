@@ -100,7 +100,7 @@ namespace MCChatTest
 
         public static void SendMessage(string message, string authorName)
         {
-            string tellraw = "tellraw @a [\"\",{\"text\":\"DISCORD \",\"bold\":true,\"color\":\"blue\"},\" < smilee13 > message\"]";//"tellraw @a {\"text\":\"<" + authorName + "> " + message + "\"}";
+            string tellraw = "tellraw @a [\"\",{\"text\":\"DISCORD \",\"bold\":true,\"color\":\"blue\"},\" <"+authorName+"> " + message + "\"]";//"tellraw @a {\"text\":\"<" + authorName + "> " + message + "\"}";
             process.StandardInput.WriteLine(tellraw);
             Console.WriteLine($"[{DateTime.Now.ToString("HH:mm:ss")}] [Server thread/INFO]: <{authorName}> {message}");
             process.StandardInput.Flush();
