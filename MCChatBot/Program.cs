@@ -60,7 +60,7 @@ namespace MCChatTest
                 {
                     Console.ForegroundColor = ConsoleColor.Cyan;
                     bot.SendMessage(output.Substring(33));
-                    //Console.WriteLine($"Chat message detected!: {output.Substring(33)}");
+                    Console.WriteLine($"Chat message detected!: {output.Substring(33)}");
                     Console.ResetColor();
                 }
 
