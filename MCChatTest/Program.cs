@@ -15,7 +15,7 @@ namespace MCChatTest
         static bool serverOpened = false;
         //RAM variables are in Gigabytes
         static int minRAM = 1;
-        static int maxRAM = 4;
+        static int maxRAM = 10;
         static Process process;
         static void Main(string[] args)
         {
