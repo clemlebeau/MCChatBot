@@ -98,7 +98,7 @@ namespace MCChatBot
 
         public async Task SendMessage(string message)
         {
-            DSharpPlus.Entities.DiscordChannel channel = await Client.GetChannelAsync(794687180387647499).ConfigureAwait(false);
+            DSharpPlus.Entities.DiscordChannel channel = await Client.GetChannelAsync(838299268988796960).ConfigureAwait(false);
             await channel.SendMessageAsync(message).ConfigureAwait(false);
         }
     }
